@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="my_script.js"></script>
+    <title>testjs</title>
+</head>
+
+<body style="text-align: center;">
+
+    <h1>calculator</h1>
+    <audio src="audios/05. Chet Atkins - Ave Maria.mp3" controls>your browser not suport this audio</audio>
+
+    <hr>
+    <br>
+    <input type="text" name="yourname" id="yourname_id" placeholder="Please enter your name" onkeyup="user_name()"
+        onfocus="startColorInput()" onblur="endColorInput()" />
+    <p id="user">your name</p>
+    <button onclick="welcomeMessage()" onmouseenter="startColorButtons()" onmouseleave="endColorButtons()">click
+        me</button>
+    <br>
+    <br>
+    <input type="text" name="number1" id="number1" placeholder="Enter number1" onfocus="startColorInput()"
+        onblur="endColorInput()" /><br>
+    <input type="text" name="number2" id="number2" placeholder="Enter number2" onfocus="startColorInput()"
+        onblur="endColorInput()" /><br>
+    <br>
+    <button onclick="addition()" onmouseenter="startColorButtons()" onmouseleave="endColorButtons()">+</button>
+    <button onclick="subtraction()" onmouseenter="startColorButtons()" onmouseleave="endColorButtons()">-</button>
+    <button onclick="multiplication()" onmouseenter="startColorButtons()" onmouseleave="endColorButtons()">*</button>
+    <button onclick="division()" onmouseenter="startColorButtons()" onmouseleave="endColorButtons()">/</button>
+    <br>
+    <p id="result">result is</p>
+    
+    <img src="images/111.jpg" alt="" width="300px" height="200px" title="flower">
+    <br>
+    <br>
+    <video src="videos/1.mp4" width="300px"  height="200px" controls autoplay muted>your browser not suport this video</video>
+    
+
+</body>
+
